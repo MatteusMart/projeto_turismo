@@ -14,7 +14,7 @@ try{
 
     $dados = $comando->fetchAll(PDO::FETCH_ASSOC);
 
-    var_dump($dados);
+    // var_dump($dados);
 
 
 }catch(PDOException $erro){
