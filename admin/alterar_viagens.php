@@ -45,7 +45,7 @@
 <body>
     <div id="container-al">
         <h3>Alterar Viagens</h3>
-        <form action="../backend/_alterar_viagens.php" method="post">
+        <form action="../backend/_alterar_viagens.php" method="post" enctype="multipart/form-data">
             <div id="grid-alterar">
                 <div>
                     <!-- pra mandar o id porem escondido(readonly hiden) -->
@@ -67,6 +67,10 @@
                     <label for="valor">Valor</label>
                     <input type="number" name="valor" id="valor"
                     value="<?php echo $dados[0]['valor']?>">
+                </div>
+                <div id="img-a">
+                    <img class="img-alterar" src="../img/upload/<?php echo $dados[0]['imagem'] ?>" alt="">
+                    <input type="file" name="aimg" id="aimg" value="">
                 </div>
                 <div>
                     <label for="desc">Descrição</label>
