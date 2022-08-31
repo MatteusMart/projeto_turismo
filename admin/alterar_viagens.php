@@ -1,6 +1,7 @@
 <?php
 
     include('../backend/conexao.php');
+    include('../backend/controle_sessao.php');
 
     // captura a variavel global ID recebida via GET-
     $id = $_GET['id'];

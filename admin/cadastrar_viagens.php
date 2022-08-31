@@ -1,3 +1,12 @@
+<?php
+
+    include('../backend/conexao.php');
+    include('../backend/controle_sessao.php');
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>

@@ -20,12 +20,15 @@ try{
     if($dados != null){
         // inicia sessão
         session_start();
+        // var_dump(session_id());
+        // exit;
 
         // cria uma variável de sessão e adiciona o usuario digitado
         $_SESSION['usuario']= $usuario;
 
         // exibe o valor adicionado na variável de sessão usuário
-        var_dump($_SESSION['usuario']);
+        // var_dump($_SESSION['usuario']);
+        // exit;
 
         // se o usuario e senha sao validos,irá entrar nesse bloco de codigo
         header('location: ../admin/gerenciar_viagens.php');

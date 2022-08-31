@@ -1,6 +1,7 @@
 <?php
+    include('../backend/controle_sessao.php');
 
-include('../backend/conexao.php');
+    include('../backend/conexao.php');
 
 try{
     $sql = "SELECT * FROM tb_viagens";
@@ -35,6 +36,12 @@ try{
 </head>
 <body>
     <div id="container-vi">
+        <hr>
+
+        <a href="cadastrar_viagens.php">Cadastrar Viagens</a><br>
+        <a href="../backend/logout.php">Sair</a>
+
+        <hr>
         <h3>Gerenciar Viagens</h3>
         <div id="tabela">
             <table border ="2">
