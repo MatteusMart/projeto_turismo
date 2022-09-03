@@ -36,12 +36,10 @@ try{
 </head>
 <body>
     <div id="container-vi">
-        <hr>
 
-        <a href="cadastrar_viagens.php">Cadastrar Viagens</a><br>
-        <a href="../backend/logout.php">Sair</a>
+        <a class="btn-cs" href="cadastrar_viagens.php">Cadastrar Viagens</a><br><br>
+        <a class="btn-csr" href="../backend/logout.php">Sair</a>
 
-        <hr>
         <h3>Gerenciar Viagens</h3>
         <div id="tabela">
             <table border ="2">
@@ -62,10 +60,10 @@ try{
                     <td>R$ <?php echo $viagem['valor'];?></td>
                     <td><?php echo $viagem['desc'];?></td>
                     <td>
-                        <a href="alterar_viagens.php?id=<?php echo $viagem['id'];?>">Alterar</a>
+                        <a class="btn-alt" href="alterar_viagens.php?id=<?php echo $viagem['id'];?>">Alterar</a>
                     </td>
                     <td>
-                        <a href="../backend/_deletar_viagens.php?id=<?php echo $viagem['id'];?>"> Deletar</a>
+                        <a class="btn-dele" href="../backend/_deletar_viagens.php?id=<?php echo $viagem['id'];?>"> Deletar</a>
                     </td>
                 </tr>
                 <?php endforeach;?>

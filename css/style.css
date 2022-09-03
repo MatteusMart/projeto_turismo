@@ -52,6 +52,39 @@
     justify-items: center;
 }
 
+.btn-cs{
+    background-color: #40d86e;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-csr{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-alt{
+    background-color: #40d86e;
+    margin: 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-dele{
+    background-color: red;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+
 /* css alterar viagens */
 
 
@@ -140,3 +173,4 @@
     height: auto;
     padding: 20px;
 }
+
